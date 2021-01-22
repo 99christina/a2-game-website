@@ -1,0 +1,458 @@
+/* screen - index */
+
+.index {
+  background-color: var(--black);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1608px;
+  min-width: 320px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.index .arashjot-i-experience-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Space Mono', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 158px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1359px;
+  width: 318px;
+}
+.index .screen-sho--21-at-744-C61RwL {
+  background-color: transparent;
+  height: 94px;
+  left: calc(50.00% - 155px);
+  position: absolute;
+  top: 932px;
+  width: 312px;
+}
+.index .screen-sho--21-at-744-VMr6Om {
+  background-color: transparent;
+  height: 144px;
+  left: calc(50.00% - 118px);
+  position: absolute;
+  top: 993px;
+  width: 278px;
+}
+.index .screen-sho--21-at-746-C61RwL {
+  background-color: transparent;
+  height: 144px;
+  left: calc(50.00% - 71px);
+  position: absolute;
+  top: 1157px;
+  width: 230px;
+}
+.index .screen-sho--21-at-747-C61RwL {
+  background-color: transparent;
+  height: 160px;
+  left: calc(50.00% - 158px);
+  position: absolute;
+  top: 1063px;
+  width: 294px;
+}
+.index .screen-sho-1-at-740-1-C61RwL {
+  background-color: transparent;
+  height: 228px;
+  left: calc(50.00% - 158px);
+  position: absolute;
+  top: 15px;
+  width: 315px;
+}
+.index .screen-sho-1-at-803-2-C61RwL {
+  background-color: transparent;
+  height: 84px;
+  left: calc(50.00% - 30px);
+  position: absolute;
+  top: 1249px;
+  width: 168px;
+}
+.index .the-advent-t-brighter-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Space Mono', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 158px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 265px;
+  width: 318px;
+}
+.librebaskerville-bold-jordy-blue-24px {
+  color: var(--jordy-blue);
+  font-family: 'Libre Baskerville', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.spacemono-normal-white-18px {
+  color: var(--white);
+  font-family: 'Space Mono', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --jordy-blue: rgba(150,175,255,1.0);
+  --white: rgba(255,255,255,1.0);
+}
+/* screen - index1 */
+
+.bp1-animate-enter {
+  animation: bp1-animate-enter-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+.bp1-animate-enter1 {
+  animation: bp1-animate-enter1-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+.bp1-animate-enter2 {
+  animation: bp1-animate-enter2-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.bp1-animate-enter3 {
+  animation: bp1-animate-enter3-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.bp1-animate-enter4 {
+  animation: bp1-animate-enter4-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.bp1-animate-enter5 {
+  animation: bp1-animate-enter5-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+}
+.index1 {
+  background-color: var(--black);
+  height: 100vh;
+  margin: 0px;
+  min-height: 3334px;
+  min-width: 1024px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.index1 .arashjot-i--christina-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 505px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2052px;
+  width: auto;
+}
+.index1 .creators-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 504px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2017px;
+  width: auto;
+}
+.index1 .english-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 504px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2396px;
+  width: auto;
+}
+.index1 .image-1-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: 297px;
+  left: calc(50.00% + 336px);
+  position: absolute;
+  top: 846px;
+  width: 216px;
+opacity: 0;
+}
+.index1 .image-2-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: 297px;
+  left: calc(50.00% + 191px);
+  position: absolute;
+  top: 2239px;
+  width: 280px;
+opacity: 0;
+}
+.index1 .image-3-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: 293px;
+  left: calc(50.00% - 512px);
+  position: absolute;
+  top: 1180px;
+  width: 186px;
+opacity: 0;
+}
+.index1 .image-4-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: 203px;
+  left: calc(50.00% + 55px);
+  position: absolute;
+  top: 1900px;
+  width: 193px;
+opacity: 0;
+}
+.index1 .in-the-abo-t-brighter-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: calc(50.00% - 242px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1154px;
+  width: 744px;
+}
+.index1 .languages-supported-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 503px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2361px;
+  width: auto;
+}
+.index1 .rectangle-1-C61RwL {
+  background-color: rgba(196,196,196,1.0);
+  height: 569px;
+  left: calc(50.00% - 506px);
+  position: absolute;
+  top: 2660px;
+  width: 1012px;
+}
+.index1 .screen-sho--21-at-744-C61RwL {
+  background-color: transparent;
+  height: 175px;
+  left: calc(50.00% - 285px);
+  position: absolute;
+  top: 1396px;
+  width: 580px;
+}
+.index1 .screen-sho--21-at-744-VMr6Om {
+  background-color: transparent;
+  height: 293px;
+  left: calc(50.00% - 101px);
+  position: absolute;
+  top: 1486px;
+  width: 566px;
+}
+.index1 .screen-sho--21-at-746-C61RwL {
+  background-color: transparent;
+  height: 286px;
+  left: calc(50.00% - 494px);
+  position: absolute;
+  top: 1628px;
+  width: 477px;
+}
+.index1 .screen-sho--21-at-747-C61RwL {
+  background-color: transparent;
+  height: 288px;
+  left: calc(50.00% - 65px);
+  position: absolute;
+  top: 1710px;
+  width: 562px;
+}
+.index1 .screen-sho-1-at-740-1-C61RwL {
+  background-color: transparent;
+  height: 712px;
+  left: calc(50.00% - 495px);
+  position: absolute;
+  top: 60px;
+  width: 990px;
+}
+.index1 .screen-sho-1-at-803-1-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: calc(50.00% - 329px);
+  position: absolute;
+  top: 1817px;
+  width: 311px;
+}
+.index1 .specifications-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 503px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2275px;
+  width: auto;
+}
+.index1 .story-game-gle-player-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 504px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2224px;
+  width: auto;
+}
+.index1 .tags-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 503px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2189px;
+  width: auto;
+}
+.index1 .the-advent-nspiration-C61RwL {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: calc(50.00% - 490px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 826px;
+  width: 691px;
+}
+.index1 .watch-the-trailer-C61RwL {
+  background-color: transparent;
+  color: var(--jordy-blue);
+  font-family: 'Libre Baskerville', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: calc(50.00% + 5px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2581px;
+  width: auto;
+}
+.index1 .works-on-m-explorer-7-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 504px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2310px;
+  width: auto;
+}
+.index1 .x2020-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 505px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2138px;
+  width: auto;
+}
+.index1 .year-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 504px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2103px;
+  width: auto;
+}
+.librebaskerville-bold-jordy-blue-24px {
+  color: var(--jordy-blue);
+  font-family: 'Libre Baskerville', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.spacemono-normal-white-18px {
+  color: var(--white);
+  font-family: 'Space Mono', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --jordy-blue: rgba(150,175,255,1.0);
+  --white: rgba(255,255,255,1.0);
+}
+@keyframes bp1-animate-enter-frames {
+
+from{}
+to{}
+}
+@keyframes bp1-animate-enter1-frames {
+
+from{}
+to{}
+}
+@keyframes bp1-animate-enter2-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp1-animate-enter3-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp1-animate-enter4-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@keyframes bp1-animate-enter5-frames {
+
+from{opacity: 0;}
+to{opacity: 1;}
+}
+@media screen and (max-width: 1023px) {
+  .index1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1024px) {
+  .index { 
+    display: none;
+   }
+}

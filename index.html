@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Space+Mono:400|Libre+Baskerville:700");
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background: rgba(0, 0, 0, 1)">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="index screen">
+      <img class="screen-sho-1-at-740-1-C61RwL" src="img/screen-shot-2021-01-21-at-7-40-1@0.75x.jpg" />
+      <div class="the-advent-t-brighter-C61RwL">
+        The “Adventures of Peet Patooey” is a game that highlights every path Peet Patooey takes to find his way home.
+        He is first pictured as this very distorted, delusion, freakish psychopath lost in an alternate universe. He is
+        sad, depressed, dull and can’t figure out what to do; he has little to no memory of his home. Until one day, he
+        musters a little courage to walk towards the unknown, finding these weird objects that are sensibly connected to
+        his home. One by one, Peet Patooey finds these particular objects and starts to feel a sensation of confidence,
+        happiness, and inspiration.<br /><br />In the above cover photo, the crystals represent lost memories, the
+        objects he will find. Peet Patooey is pictured as a delusional, depressed psychopath because he is lost, scared,
+        anxious, stressed. He is placed in this abnormal universe, so this is why everything is dark. The shadow in
+        front of him represents his normal self. Which is a light colour because once the player leads him home, he
+        starts to get brighter.
+      </div>
+      <div class="arashjot-i-experience-C61RwL">
+        Arashjot, Isabella, Cam, Christina<br />2020<br />Story game telling, adventure, text-based, single player<br />Works
+        on most browsers, except for Internet Explorer 7<br />English<br /><br />View site on desktop for full
+        experience
+      </div>
+      <img class="screen-sho--21-at-744-C61RwL" src="img/screen-shot-2021-01-21-at-7-44@2x.jpg" />
+      <img class="screen-sho--21-at-744-VMr6Om" src="img/screen-shot-2021-01-21-at-7-44-1@2x.jpg" />
+      <img class="screen-sho--21-at-747-C61RwL" src="img/screen-shot-2021-01-21-at-7-47@2x.jpg" />
+      <img class="screen-sho--21-at-746-C61RwL" src="img/screen-shot-2021-01-21-at-7-46@2x.jpg" />
+      <img class="screen-sho-1-at-803-2-C61RwL" src="img/screen-shot-2021-01-21-at-8-03-2@2x.jpg" />
+    </div>
+    <div class="index1 screen">
+      <img class="screen-sho-1-at-740-1-C61RwL" src="img/screen-shot-2021-01-21-at-7-40-1-1@0.5x.jpg" />
+      <div class="watch-the-trailer-C61RwL">watch the trailer...</div>
+      <div class="creators-C61RwL librebaskerville-bold-jordy-blue-24px">creators</div>
+      <div class="year-C61RwL librebaskerville-bold-jordy-blue-24px">year</div>
+      <div class="tags-C61RwL librebaskerville-bold-jordy-blue-24px">tags</div>
+      <div class="specifications-C61RwL librebaskerville-bold-jordy-blue-24px">specifications</div>
+      <div class="languages-supported-C61RwL librebaskerville-bold-jordy-blue-24px">languages supported</div>
+      <div class="the-advent-nspiration-C61RwL spacemono-normal-white-18px bp1-animate-enter" show-on-scroll>
+        The “Adventures of Peet Patooey” is a game that highlights every path Peet Patooey takes to find his way home.
+        He is first pictured as this very distorted, delusion, freakish psychopath lost in an alternate universe. He is
+        sad, depressed, dull and can’t figure out what to do; he has little to no memory of his home. Until one day, he
+        musters a little courage to walk towards the unknown, finding these weird objects that are sensibly connected to
+        his home. One by one, Peet Patooey finds these particular objects and starts to feel a sensation of confidence,
+        happiness, and inspiration.
+      </div>
+      <div class="in-the-abo-t-brighter-C61RwL spacemono-normal-white-18px bp1-animate-enter1" show-on-scroll>
+        In the above cover photo, the crystals represent lost memories, the objects he will find. Peet Patooey is
+        pictured as a delusional, depressed psychopath because he is lost, scared, anxious, stressed. He is placed in
+        this abnormal universe, so this is why everything is dark. The shadow in front of him represents his normal
+        self. Which is a light colour because once the player leads him home, he starts to get brighter.
+      </div>
+      <div class="arashjot-i--christina-C61RwL spacemono-normal-white-18px">Arashjot, Isabella, Cam, Christina</div>
+      <div class="x2020-C61RwL spacemono-normal-white-18px">2020</div>
+      <div class="story-game-gle-player-C61RwL spacemono-normal-white-18px">
+        Story game telling, adventure game, text-based, single player
+      </div>
+      <div class="works-on-m-explorer-7-C61RwL spacemono-normal-white-18px">
+        Works on most browsers, except for Internet Explorer 7
+      </div>
+      <div class="english-C61RwL spacemono-normal-white-18px">English</div>
+      <img class="image-1-C61RwL bp1-animate-enter2" show-on-scroll src="img/image-1@2x.png" />
+      <img class="image-3-C61RwL bp1-animate-enter3" show-on-scroll src="img/image-3@2x.png" />
+      <img class="screen-sho--21-at-744-C61RwL" src="img/screen-shot-2021-01-21-at-7-44@1x.jpg" />
+      <img class="screen-sho--21-at-744-VMr6Om" src="img/screen-shot-2021-01-21-at-7-44-1@1x.jpg" />
+      <img class="screen-sho--21-at-746-C61RwL" src="img/screen-shot-2021-01-21-at-7-46-1@2x.jpg" />
+      <img class="screen-sho--21-at-747-C61RwL" src="img/screen-shot-2021-01-21-at-7-47-1@1x.jpg" />
+      <img class="screen-sho-1-at-803-1-C61RwL" src="img/screen-shot-2021-01-21-at-8-03-1@2x.jpg" />
+      <img class="image-2-C61RwL bp1-animate-enter4" show-on-scroll src="img/image-2@2x.png" />
+      <div class="rectangle-1-C61RwL"><iframe src="https://player.vimeo.com/video/503275601?title=0&byline=0&portrait=0" width="1012" height="569" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+      <img class="image-4-C61RwL bp1-animate-enter5" show-on-scroll src="img/image-4@2x.png" />
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
